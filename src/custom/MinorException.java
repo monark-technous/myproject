@@ -6,6 +6,6 @@ public class MinorException extends Exception{
 
     MinorException(String msg){
 
-        super(msg);
+        super(msg);//ok
     }
 }
