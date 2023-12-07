@@ -13,6 +13,7 @@ public class PeopleATM {
             throw new MinorException(name+" you are not mazor so you have not get ATM card");
         else
             System.out.println("Hello, "+name+" congratulations...your atm card create successfully");
+        
     }
 
     public static void execute() {
@@ -27,6 +28,7 @@ public class PeopleATM {
         try{
             // Call PeopleATM method for get an ATM card.
             PeopleATM peopleATM = new PeopleATM();
+            peopleATM.getATM(name,age);
             peopleATM.getATM(name,age);
         }
         catch (MinorException e){
